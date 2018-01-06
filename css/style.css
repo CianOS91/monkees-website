@@ -113,12 +113,20 @@ nav{
 .navbar-default .navbar-nav>li>a:hover{
     background-color: rgba(255, 255, 255, .9);
     color: black;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all o.35s ease-in-out;
 }
 
 .navbar .logo-text:focus,
 .navbar .logo-text:hover{
     color: #c60707;
     background-color: black;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all o.35s ease-in-out;
 }
 
 .nav-header{
@@ -132,6 +140,14 @@ nav{
     padding: 10px;
 }
 
+.navbar-default .nav-social li a i:hover{
+    background: #c60707;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all o.35s ease-in-out;
+}
+
 /*------------------------Home*/
 
 
@@ -140,6 +156,26 @@ nav{
     margin-left: 10px;
 }
 
+
+.button-color{
+    background-color: #c60707;
+    border-color: black;
+    border-bottom-style: solid;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all o.35s ease-in-out;
+}
+
+.button-color:focus,
+.button-color:hover{
+    background-color: black;
+    border-color: #c60707;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all o.35s ease-in-out;
+}
 
 /*--------------Footer*/
 
@@ -169,11 +205,11 @@ nav{
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 7px;
     text-align: center;
     color: black;
-    background: #8f8f8f;
+    background: #fafafa;
 }
 
 .footer-title-spacing{
@@ -186,6 +222,18 @@ footer .footer-title-spacing>a:hover{
     color: #c60707;
     background-color: black;
     text-decoration: none;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all o.35s ease-in-out;
+}
+
+footer ul li a i:hover{
+    background: #c60707;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all o.35s ease-in-out;
 }
 
 /*--------------Media Query*/
