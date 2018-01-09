@@ -82,7 +82,7 @@ nav{
 }
 
 .nav-color{
-    background-color: rgba(0,0,0,.5)
+    background-color: rgba(0,0,0,.4)
 }
 
 .navbar{
@@ -236,6 +236,135 @@ footer ul li a i:hover{
     -o-transition: all o.35s ease-in-out;
 }
 
+
+/*-----------------------------------------------------------------NEWS PAGE*/
+
+.news-section-styling{
+    padding-top: 52px;
+    background-color: #b6d0f9;
+    display: block;
+}
+
+.container-news{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.news-panel{
+    height: 28%;
+    width: 90%;
+    background-color: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.new-pictures{
+    display: inline-block;
+}
+
+.news-quotes{
+    display: inline-block;
+}
+
+.news-dates{
+    font-family: "Roboto" ,sans-serif;
+    font-weight: 600;
+    color: #58657a;
+}
+
+.news-heading{
+    font-family: "Exo" ,sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.news-p{
+    font-family: "Roboto" ,sans-serif;
+    font-size: 18px;
+    color: #58657a;
+
+}
+
+.news-img{
+    padding: 15px;
+}
+
+
+
+.news-footer{
+    
+    width: 100%;
+    display: block;
+}
+
+section .news-panel .news-quotes a h1:focus,
+section .news-panel .news-quotes a h1:hover{
+    text-decoration: none;
+    color: #949ba8;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all o.35s ease-in-out;
+}
+
+
+section .news-panel .news-quotes a:focus,
+section .news-panel .news-quotes a:hover{
+    text-decoration: none;
+}
+
+
+/*---------------------------------------------------MUSIC PAGE*/
+
+.music-section-styling{
+    padding-top: 52px;
+    background-color: #1f2a66;
+    display: block;
+    height: 100%;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.music-bg-image{
+    height: 30vh;
+    width: 100%;
+    padding:0;
+    margin: 0;
+
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.main{
+    height: 80px;
+    border: 1px solid #282828;
+    width: 20%;
+    max-width: 30px;
+    max-height: 300px;
+}
+
+.music-images{
+    width: 100%;
+}
+
+
 /*--------------Media Query*/
 
 @media(max-width: 500px){
@@ -254,5 +383,11 @@ footer ul li a i:hover{
 @media(min-width: 720px) {
     .carousel-caption{
         vertical-align: middle;
+    }
+}
+
+@media(max-width: 1220px){
+    .news-quotes{
+        padding: 0 15px 15px 15px;
     }
 }
