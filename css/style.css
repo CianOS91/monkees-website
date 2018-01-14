@@ -8,7 +8,6 @@
 html,
 body {
     width: 100%;
-    height: 100%
 }
 
 
@@ -323,7 +322,7 @@ section .news-panel .news-quotes a:hover{
 
 .music-section-styling{
     padding-top: 52px;
-    background-color: #1f2a66;
+    background-color: #2d333d;
     display: block;
     height: 100%;
     left: 0;
@@ -353,15 +352,55 @@ section .news-panel .news-quotes a:hover{
 
 
 .main{
-    height: 80px;
+    width: 300px;
     border: 1px solid #282828;
-    width: 20%;
-    max-width: 30px;
-    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
 
 .music-images{
     width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+.music-row{
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.audio-width{
+    width: 100%;
+}
+
+.music-p{
+    text-align: center;
+    font-family: "Roboto" , sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #fafafa;
+}
+
+
+/*------------------------------------------------Tour*/
+
+.tour-table{
+    margin-top: 50px;
+}
+
+.tr-head{
+    font-family: "Exo" , sans-serif;
+    font-size: 24px;
+}
+
+.tr-body{
+    font-family: "Roboto" , sans-serif;
+    font-weight: 600;
 }
 
 
