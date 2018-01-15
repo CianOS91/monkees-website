@@ -404,6 +404,42 @@ section .news-panel .news-quotes a:hover{
 }
 
 
+/*-------------------------------------Contact*/
+
+.center-form{
+    max-width: 70%;
+    margin: 0 auto;
+    transform: translateY(50%);
+}
+
+.contact-button-color{
+    color: #fafafa;
+    margin-top: 20px;
+}
+
+.contact-button-color:hover,
+.contact-button-color:focus{
+    color: #fafafa;
+}
+.contact-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact-heading{
+    font-family: "Exo" , sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact-text{
+    font-family: "Roboto" , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /*--------------Media Query*/
 
 @media(max-width: 500px){
@@ -429,4 +465,19 @@ section .news-panel .news-quotes a:hover{
     .news-quotes{
         padding: 0 15px 15px 15px;
     }
+}
+
+@media(max-width: 400px){
+    .contact-footer{
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    right: 0;
+    }
+    
+    .center-form{
+    max-width: 70%;
+    margin: 0 auto;
+    transform: translateY(25%);
+}
 }
