@@ -388,6 +388,10 @@ section .news-panel .news-quotes a:hover{
 }
 
 
+.video-size{
+    width: 100%;
+}
+
 /*------------------------------------------------Tour*/
 
 .tour-table{
@@ -462,6 +466,18 @@ section .news-panel .news-quotes a:hover{
     background-color: rgba(0, 0, 0, .7);
 }
 
+.gallery{
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.gallery-row{
+    display: block;
+}
 
 /*-------------------------------------------Sign up/Log in*/
 
@@ -541,6 +557,12 @@ section .news-panel .news-quotes a:hover{
     margin: 0 auto;
     transform: translateY(100%);
 }
+
+.carousel-gallery{
+    height: 50vh;
+}
+
+
 }
 
 
